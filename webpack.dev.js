@@ -8,6 +8,7 @@ module.exports = {
     mode: 'development',
     entry: './src/client/index.js',
     devtool: 'source-map',
+    stats: 'verbose',
     module: {
         rules: [
             {
